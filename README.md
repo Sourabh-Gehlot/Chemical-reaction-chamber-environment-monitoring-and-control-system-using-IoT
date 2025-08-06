@@ -3,21 +3,8 @@ IoT-based system designed for environmental monitoring and control in industrial
 
 
 **Hardware and Components**: 
-The system is built around an ESP32 Microcontroller , which acts as the central processing unit. It utilizes a 
-
-DHT22 sensor for real-time temperature and humidity monitoring. An 
-
-MQ135 air quality sensor detects harmful gases and pollutants , while a 
-
-relay module controls external devices like fans.
-
-
-Real-Time Feedback Loop: The ESP32 continuously evaluates sensor readings against predefined safety thresholds. When a threshold is exceeded, the relay module automatically activates a corrective device. The system uses a 
-
-
-Green LED to indicate normal conditions and a Red LED to signal a critical state.
-
-
+The system is built around an ESP32 Microcontroller , which acts as the central processing unit. It utilizes a DHT22 sensor for real-time temperature and humidity monitoring. An MQ135 air quality sensor detects harmful gases and pollutants , while a relay module controls external devices like fans.
+Real-Time Feedback Loop: The ESP32 continuously evaluates sensor readings against predefined safety thresholds. When a threshold is exceeded, the relay module automatically activates a corrective device. The system uses a Green LED to indicate normal conditions and a Red LED to signal a critical state.
 Remote Monitoring: A built-in Wi-Fi module allows for remote monitoring and control via a simple web interface, which displays real-time data and system status.
 
 
